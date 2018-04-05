@@ -13,3 +13,15 @@ def sort_array_desc(numbers)
     end
   end
 end
+
+def sort_array_char_count(strings)
+  strings.sort do |a, b|
+    if a.size == b.size
+      0
+    elsif a.size < b.size
+      -1
+    elsif a.size > b.size
+      1
+    end
+  end
+end
