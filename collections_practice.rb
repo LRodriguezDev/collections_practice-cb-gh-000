@@ -46,3 +46,13 @@ def kesha_maker(strings)
   end
   kesha_array
 end
+
+def find_a(strings)
+  a_array = []
+  strings.each do |string|
+    if string.start_with?("a")
+      a_array << string
+    end
+  end
+  a_array
+end
