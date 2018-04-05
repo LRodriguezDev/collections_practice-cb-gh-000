@@ -64,3 +64,13 @@ def sum_array(integers)
   end
   total
 end
+
+def add_s(words)
+  words.each_with_index.collect do |element, index| 
+    if index == 1
+      element
+    else
+      element + "s"
+    end
+  end
+end
