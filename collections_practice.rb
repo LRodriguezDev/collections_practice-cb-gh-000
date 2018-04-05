@@ -30,4 +30,5 @@ def swap_elements(elements)
   temp = elements[1]
   elements[1] = elements[2]
   elements[2] = temp
+  elements
 end
