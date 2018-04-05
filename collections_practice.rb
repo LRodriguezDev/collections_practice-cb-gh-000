@@ -25,3 +25,9 @@ def sort_array_char_count(strings)
     end
   end
 end
+
+def swap_elements(elements, first, second)
+  temp = elements[first]
+  elements[first] = elements[second]
+  elements[second] = temp
+end
